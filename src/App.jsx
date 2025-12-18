@@ -3,7 +3,7 @@ import Layout from "./components/layout/Layout";
 import Profile from "./pages/profile/Profile";
 import PrivateRequset from "./components/privateRequest/PrivateRequset";
 import Login from "./pages/login/Login";
-import Libraries from "./pages/Libraries/Libraries";
+import Libraries from "./pages/library/Libraries";
 import BookDetail from "./pages/book/BookDetail";
 import Books from "./pages/book/Books";
 
