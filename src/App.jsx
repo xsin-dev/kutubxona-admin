@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import Layout from "./components/layout/Layout";
 import Profile from "./pages/profile/Profile";
 import PrivateRequset from "./components/privateRequest/PrivateRequset";
