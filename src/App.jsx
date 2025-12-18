@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/layout/Layout";
-import Dashboard from "./pages/Dashboard/Dashboard";
 import Profile from "./pages/profile/Profile";
 import PrivateRequset from "./components/privateRequest/PrivateRequset";
 import Login from "./pages/login/Login";
@@ -16,7 +15,6 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route element={<PrivateRequset />}>
           <Route element={<Layout />}>
-            <Route path="/" element={<Dashboard />} />
             <Route path="/books" element={<Books />} />
             <Route path="/book/:id" element={<BookDetail />} />
             <Route path="/libraries" element={<Libraries />} />
