@@ -1,0 +1,43 @@
+{
+  "common": {
+    "books": "Books",
+    "libraries": "Libraries",
+    "name": "Name",
+    "phone": "Phone",
+    "logout": "Logout",
+    "yes": "Yes",
+    "no": "No",
+    "likeBook": "Favorites",
+    "piece": "piece",
+    "search": "Search",
+    "copy": "Copy",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "profile": {
+    "edit": "Edit",
+    "logoutConfirm": "Do you want to leave the profile?"
+  },
+  "sidebar": {
+    "libraryAdd": "Library Add"
+  },
+  "books": {
+    "allBooks": "All Books",
+    "nameBooks": "Book Name",
+    "author": "Author",
+    "publisher": "Publisher",
+    "totalCount": "Total Count"
+  },
+  "libraries": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "manyBooks": "Many Books",
+    "library": "Libraries",
+    "status": "Status",
+    "address": "Address",
+    "totalBooks": "Total Books",
+    "actions": "Actions"
+  }
+}

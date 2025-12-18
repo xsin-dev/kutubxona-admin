@@ -1,0 +1,39 @@
+.list {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  border: 1px solid #374151;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.tab {
+  position: relative;
+  padding: 8px 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 300ms ease;
+  background-color: transparent;
+  color: #000;
+}
+
+.tab[data-active] {
+  background-color:#1f2937;
+  color: #fff;
+  border-color:#1f2937;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tab {
+    color: #ccc;
+    border-color: #555;
+    background-color: transparent;
+  }
+
+  .tab[data-active] {
+    background-color:#1f2937;
+    color: #fff;
+    border-color:#1f2937;
+  }
+}

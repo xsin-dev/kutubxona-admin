@@ -1,0 +1,43 @@
+{
+  "common": {
+    "books": "Книги",
+    "libraries": "Библиотеки",
+    "name": "Имя",
+    "phone": "Телефон",
+    "logout": "Выйти",
+    "yes": "Да",
+    "no": "Нет",
+    "likeBook": "Избранное",
+    "search": "Поиск",
+    "piece": "штука",
+    "copy": "Копия",
+    "activate": "Активировать",
+    "deactivate": "Деактивировать",
+    "active": "Активный",
+    "inactive": "Неактивный"
+  },
+  "profile": {
+    "edit": "Редактировать",
+    "logoutConfirm": "Вы хотите покинуть профиль?"
+  },
+  "sidebar": {
+    "libraryAdd": "Добавить библиотеку"
+  },
+  "books": {
+    "allBooks": "Все книги",
+    "nameBooks": "Название книги",
+    "author": "Автор",
+    "publisher": "Издательство",
+    "totalCount": "Общее количество"
+  },
+  "libraries": {
+    "active": "Активный",
+    "inactive": "Неактивный",
+    "manyBooks": "Много книг",
+    "library": "Библиотеки",
+    "status": "Состояние",
+    "address": "Адрес",
+    "totalBooks": "Всего книг",
+    "actions": "Действия"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "common": {
+    "books": "Kitoblar",
+    "libraries": "Kutubxonalar",
+    "name": "Ism",
+    "phone": "Telefon",
+    "logout": "Chiqish",
+    "yes": "Ha",
+    "no": "Yo‘q",
+    "likeBook": "Sevimlilar",
+    "search": "Qidirish",
+    "piece": "dona",
+    "copy": "Nusxa",
+    "activate": "Faollashtirish",
+    "deactivate": "Nofaollashtirish",
+    "active": "Faol",
+    "inactive": "Nofaol"
+  },
+  "profile": {
+    "edit": "Tahrirlash",
+    "logoutConfirm": "Profilni tark etmoqchimisiz?"
+  },
+  "sidebar": {
+    "libraryAdd": "Kutubxona qo‘shish"
+  },
+  "books": {
+    "allBooks": "Barcha kitoblar",
+    "nameBooks": "Kitoblar nomi",
+    "author": "Muallif",
+    "publisher": "Nashriyot",
+    "totalCount": "Jami soni"
+  },
+  "libraries": {
+    "active": "Faol",
+    "inactive": "Nofaol",
+    "manyBooks": "Ko‘p kitoblar",
+    "library": "Kutubxonalar",
+    "status": "Holat",
+    "address": "Manzil",
+    "totalBooks": "Jami kitoblar",
+    "actions": "Amallar"
+  }
+}
