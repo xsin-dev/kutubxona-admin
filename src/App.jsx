@@ -12,7 +12,8 @@ const App = () => {
     <Routes>
       <Route path="/login" element={<Login />} />
       <Route element={<PrivateRequset />}>
-        <Route path="/" element={<Layout />}>
+        <Route element={<Layout />}>
+          <Route index element={<Navigate to="/profile" />} />
           <Route path="/books" element={<Books />} />
           <Route path="/book/:id" element={<BookDetail />} />
           <Route path="/libraries" element={<Libraries />} />
