@@ -10,19 +10,17 @@ import BookDetail from "./pages/books/BookDetail";
 
 const App = () => {
   return (
-    <>
-      <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route element={<PrivateRequset />}>
-          <Route element={<Layout />}>
-            <Route path="/books" element={<Books />} />
-            <Route path="/book/:id" element={<BookDetail />} />
-            <Route path="/libraries" element={<Libraries />} />
-            <Route path="/profile" element={<Profile />} />
-          </Route>
+    <Routes>
+      <Route path="/login" element={<Login />} />
+      <Route element={<PrivateRequset />}>
+        <Route element={<Layout />}>
+          <Route path="/books" element={<Books />} />
+          <Route path="/book/:id" element={<BookDetail />} />
+          <Route path="/libraries" element={<Libraries />} />
+          <Route path="/profile" element={<Profile />} />
         </Route>
-      </Routes>
-    </>
+      </Route>
+    </Routes>
   );
 };
 
