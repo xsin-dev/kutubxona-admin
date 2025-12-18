@@ -1,12 +1,11 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/layout/Layout";
 import Profile from "./pages/profile/Profile";
 import PrivateRequset from "./components/privateRequest/PrivateRequset";
 import Login from "./pages/login/Login";
-import Books from "./pages/Books/Books";
 import Libraries from "./pages/Libraries/Libraries";
-import BookDetail from "./pages/books/BookDetail";
+import BookDetail from "./pages/book/BookDetail";
+import Books from "./pages/book/Books";
 
 const App = () => {
   return (
