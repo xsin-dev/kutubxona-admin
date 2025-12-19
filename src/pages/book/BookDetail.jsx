@@ -1,3 +1,12 @@
+import { useMutation, useQuery } from "@tanstack/react-query";
+import { useNavigate, useParams } from "react-router-dom";
+import { notifications } from "@mantine/notifications";
+import { modals } from "@mantine/modals";
+import { API } from "../../api/api";
+import authStore from "../../store/authStore";
+import { IconCheck, IconX } from "@tabler/icons-react";
+import BookImage from "../../../public/image/kitob.jpg"
+import { IconTrash, IconHeart, IconHeartFilled, IconArrowLeft } from "@tabler/icons-react";
 import {
   ActionIcon,
   Badge,
@@ -11,15 +20,6 @@ import {
   Text,
   Title,
 } from "@mantine/core";
-import { useMutation, useQuery } from "@tanstack/react-query";
-import { useNavigate, useParams } from "react-router-dom";
-import { notifications } from "@mantine/notifications";
-import { IconTrash, IconHeart, IconHeartFilled, IconArrowLeft } from "@tabler/icons-react";
-import { modals } from "@mantine/modals";
-import { API } from "../../api/api";
-import authStore from "../../store/authStore";
-import { IconCheck, IconX } from "@tabler/icons-react";
-import BookImage from "../../../public/image/kitob.jpg"
 
 const BookDetail = () => {
   const { id } = useParams();

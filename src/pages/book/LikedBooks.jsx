@@ -1,6 +1,6 @@
 import { Badge, Stack, Table, Text, Tooltip } from "@mantine/core";
 import authStore from "../../store/authStore";
-import { IconDots, IconHeartFilled } from "@tabler/icons-react";
+import { IconHeartFilled } from "@tabler/icons-react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 

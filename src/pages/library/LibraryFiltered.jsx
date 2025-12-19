@@ -1,15 +1,17 @@
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { API } from "../../api/api";
 import { queryClient } from "../../main";
-import { Badge, Button, Center, Image, Popover, Skeleton, Stack, Table, Text, Tooltip } from "@mantine/core";
 import { HiDotsHorizontal } from "react-icons/hi";
 import authStore from "../../store/authStore";
 import { IconHeartFilled } from "@tabler/icons-react";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
+import { Badge, Button, Popover, Skeleton, Stack, Table, Text, Tooltip } from "@mantine/core";
 
 const LibraryFiltered = ({ type, search }) => {
     const { likedLibrary, toggleLikedLibrary } = authStore();
     const { t } = useTranslation()
+    const navigate = useNavigate()
 
     const { data: libraries, isLoading } = useQuery({
         queryKey: ["libraries"],
@@ -172,7 +174,9 @@ const LibraryFiltered = ({ type, search }) => {
                                 </Tooltip>
                             </Table.Td>
 
-                            <Table.Td className="text-white px-4">{library.name}</Table.Td>
+                            <Table.Td
+                                onClick={() => navigate(`/libraries/${library.id}`)}
+                                className="text-white px-4">{library.name}</Table.Td>
                             <Table.Td>
                                 <Badge
                                     variant="outline"
